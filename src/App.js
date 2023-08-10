@@ -6,6 +6,8 @@ import Assesment1 from './comonents/Assesment1';
 import Library from './comonents/Library';
 import Roundstatus from './comonents/Roundstatus';
 import MyAssesment from './comonents/MyAssesment';
+import EEEEEEE from './comonents/EEEEEEE';
+import Adddd from './comonents/Adddd';
 import OOOI from './comonents/OOOI.JSX';
 import { FaMobile } from "react-icons/fa6";
 import { BiMobile } from "react-icons/bi";
@@ -18,12 +20,14 @@ import {GrStatusDisabled} from "react-icons/gr"
 
 
 
+
 function App() {
   return (
     <div className="App">
+      <div className='row'>
 
       {/* <OOOI/> */}
-      <div>
+      <div className=''>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
   {/* <h2><BiMobile/></h2> */}
@@ -40,11 +44,11 @@ function App() {
 
          <>
          
-         <div className='row'>
+      
          <div className='col-10 col-md-2'>
 <nav className="nav flex-column" > 
 <h4><AiFillFolder/></h4>
-  <a className="nav-link active" aria-current="page" href="#">Dashboard</a>
+  <a className="nav-link active" aria-current="page" href="/libbbb">Dashboard</a>
   <h4><BiPencil/></h4>
   <a className="nav-link" href="sskjgkjfg">Assesment</a>
   <h4><BsQuestionCircle/></h4>
@@ -60,7 +64,18 @@ function App() {
 </nav>
 
 </div>
+      
+         <div className='col-10 col-md-2'>
+<nav className="nav flex-column" > 
+
+  
+  
+
+</nav>
+
 </div>
+
+
    
  
    
@@ -80,6 +95,7 @@ function App() {
         <Route exact path='/libb' element={<Library/>}/>
         <Route exact path='/libbbb' element={<MyAssesment/>}/>
         <Route exact path='/JDJDJDJDJ' element={<Roundstatus/>}/>
+      
         
 
 
@@ -91,12 +107,13 @@ function App() {
                  </>
       
 
-
+                 <EEEEEEE/>
+                 <Adddd/>
 
       
     
 
-  
+                 </div>
     </div>
   );
 }

@@ -7,25 +7,21 @@ function Assesment() {
     
       
     
-      <div>
-        <div>
-      <div className=' mt-5'>
-      <ul className="nav justify-content-center">
+<div className='container'>
+      <div className=" col-mb-3">
+      <a className="nav-link active" href="sskjg">Assesment</a>
+</div>
+<div className="mb-3">
+<a className="nav-link" href="libbbb">My Assesment</a>
+</div>
+    </div>
     
-        
-  <li className="nav-item">
-    <a className="nav-link active" href="sskjg">Assesment</a>
+  
+
+  
+    
 
 
-  </li>
-  <li className="nav-item">
-    <a className="nav-link" href="libbbb">My Assesment</a>
-  </li>
-</ul>
-
-</div>
-</div>
-</div>
       
     
     

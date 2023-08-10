@@ -5,11 +5,12 @@ import { FcComboChart } from "react-icons/fc";
 import {TbWorldDownload} from "react-icons/tb"
 import {SlCalender} from "react-icons/sl"
 import {LiaShareAltSolid} from "react-icons/lia"
+ import './MyAssesment.css'
 
 function MyAssesment() {
   const [Add,setAdd]=useState([]);
   return (
-    <div>
+    <div className='col'>
       
       Assesments overview
      

@@ -1,39 +1,30 @@
 import React from 'react'
+import './Library.css'
 
 function Library() {
   return (
-    <div>Library
-      JKLDNJKLFDNJKLFKLI
-      {/* <div className="container text-center">
-  <div className="row">
-    <div className="col">
-      Column
-    </div>
-    <div className="col">
-      Column
-    </div>
-    <div className="col">
-      Column
-    </div>
-  </div>
-</div> */}
-
+    <div className='dnbkmk'>
+      Library
+      JKLDNJKLFD
+      <div md={{span:6,offset:3}}>
+ 
 <ul className="nav nav-tabs">
   <li className="nav-item">
-    <a className="nav-link active" aria-current="page" href="#">Active</a>
+    <a className="nav-link" href="JDJDJDJDJ">Assesment first page</a>
   </li>
   <li className="nav-item">
-    <a className="nav-link" href="#">Link</a>
+    <a className="nav-link" href="/JDJDJDJDJ">Unstop App</a>
   </li>
   <li className="nav-item">
-    <a className="nav-link" href="#">Link</a>
+    <a className="nav-link" href="/libbbb">First Assesment</a>
   </li>
   <li className="nav-item">
-    <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+    <a className="nav-link" href="JDJDJDJDJ">Deployment</a>
   </li>
 </ul>
-    
-    </div>
+</div>
+</div>
+  
   )
 }
 

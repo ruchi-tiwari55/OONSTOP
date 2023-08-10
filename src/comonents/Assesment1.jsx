@@ -5,6 +5,9 @@ import { FcComboChart } from "react-icons/fc";
 import {TbWorldDownload} from "react-icons/tb"
 import {SlCalender} from "react-icons/sl"
 import {LiaShareAltSolid} from "react-icons/lia"
+import './Assesment1.css'
+import './Library.css'
+
 
 function MyAssesment() {
   return (

@@ -1,7 +1,9 @@
 import React from 'react'
 import { FaPix } from "react-icons/fa6";
+import './Roundstatus.css';
 
-function dashboard() {
+
+function Dashboard() {
   return (
     
     <div>
@@ -25,4 +27,4 @@ function dashboard() {
   )
 }
 
-export default dashboard
+export default Dashboard
